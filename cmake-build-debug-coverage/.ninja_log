@@ -1,0 +1,8 @@
+# ninja log v6
+11	369	1726412716163987284	build.ninja	253eebd54f7a5d4
+272	527	1726404016568010367	CMakeFiles/activity1.dir/Assignments/Lecture_1/activity1.c.o	f5fbf349c4e1882c
+3	508	1726351645891594738	CMakeFiles/Data_structure_and_algorithm.dir/Assignments/Lecture_1/activity_1.c.o	b94ec3c677766e98
+528	1078	1726404016823004850	activity1	b3443d584a7711bd
+3	104	1726406980012396003	CMakeFiles/activity2.dir/Assignments/Lecture_1/activity2.c.o	9ba27e2cc55de205
+104	191	1726406980113350462	activity2	768085c50813a716
+4	190	1726351768031687151	CMakeFiles/Data_structure_and_algorithm.dir/Assignments/Lecture_1/activity_2.c.o	e95a9ba5c5c74f70
