@@ -226,6 +226,37 @@ build Assignment1: C_EXECUTABLE_LINKER__Assignment1_Debug CMakeFiles/Assignment1
   TARGET_FILE = Assignment1
   TARGET_PDB = Assignment1.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Assignment2
+
+
+#############################################
+# Order-only phony target for Assignment2
+
+build cmake_object_order_depends_target_Assignment2: phony || .
+
+build CMakeFiles/Assignment2.dir/Assignments/Lecture_1/Assignment2.c.o: C_COMPILER__Assignment2_unscanned_Debug /home/fiston/Desktop/AUCA/Data$ structure$ and$ algorithm/Assignments/Lecture$ 1/Assignment2.c || cmake_object_order_depends_target_Assignment2
+  DEP_FILE = CMakeFiles/Assignment2.dir/Assignments/Lecture_1/Assignment2.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Assignment2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Assignment2.dir/Assignments/Lecture_1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Assignment2
+
+
+#############################################
+# Link the executable Assignment2
+
+build Assignment2: C_EXECUTABLE_LINKER__Assignment2_Debug CMakeFiles/Assignment2.dir/Assignments/Lecture_1/Assignment2.c.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/Assignment2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Assignment2
+  TARGET_PDB = Assignment2.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -260,7 +291,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/fiston/Desktop/AUCA/Data structure and algorithm/cmake-build-debug
 
-build all: phony activity1 activity2 activity3 activity4 activity5 Assignment1
+build all: phony activity1 activity2 activity3 activity4 activity5 Assignment1 Assignment2
 
 # =============================================================================
 # Built-in targets

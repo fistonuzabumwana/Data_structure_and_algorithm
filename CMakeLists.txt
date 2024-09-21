@@ -18,3 +18,4 @@ add_executable(activity5
         "Assignments/Lecture 1/activity5.c")
 add_executable(Assignment1
         "Assignments/Lecture 1/Assignment1.c")
+add_executable(Assignment2 "Assignments/Lecture 1/Assignment2.c")

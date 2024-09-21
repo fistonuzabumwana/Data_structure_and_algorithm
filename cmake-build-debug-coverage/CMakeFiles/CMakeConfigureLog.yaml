@@ -635,3 +635,423 @@ events:
         
       exitCode: 1
 ...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/cc 
+      Build flags: -fcoverage-mapping;-fprofile-instr-generate
+      Id flags:  
+      
+      The output was:
+      1
+      cc: error: unrecognized command-line option ‘-fcoverage-mapping’
+      cc: error: unrecognized command-line option ‘-fprofile-instr-generate’; did you mean ‘-fprofile-generate’?
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/cc 
+      Build flags: -fcoverage-mapping;-fprofile-instr-generate
+      Id flags: -c 
+      
+      The output was:
+      1
+      cc: error: unrecognized command-line option ‘-fcoverage-mapping’
+      cc: error: unrecognized command-line option ‘-fprofile-instr-generate’; did you mean ‘-fprofile-generate’?
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/cc 
+      Build flags: -fcoverage-mapping;-fprofile-instr-generate
+      Id flags: -Aa 
+      
+      The output was:
+      1
+      cc: error: unrecognized command-line option ‘-fcoverage-mapping’
+      cc: error: unrecognized command-line option ‘-fprofile-instr-generate’; did you mean ‘-fprofile-generate’?
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/cc 
+      Build flags: -fcoverage-mapping;-fprofile-instr-generate
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      1
+      cc: error: unrecognized command-line option ‘-fcoverage-mapping’
+      cc: error: unrecognized command-line option ‘-fprofile-instr-generate’; did you mean ‘-fprofile-generate’?
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/cc 
+      Build flags: -fcoverage-mapping;-fprofile-instr-generate
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      cc: warning: ‘-mcpu=’ is deprecated; use ‘-mtune=’ or ‘-march=’ instead
+      cc: error: unrecognized command-line option ‘-fcoverage-mapping’
+      cc: error: unrecognized command-line option ‘-fprofile-instr-generate’; did you mean ‘-fprofile-generate’?
+      cc: error: unrecognized command-line option ‘--target=arm-arm-none-eabi’
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/cc 
+      Build flags: -fcoverage-mapping;-fprofile-instr-generate
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      1
+      cc: error: unrecognized command-line option ‘-fcoverage-mapping’
+      cc: error: unrecognized command-line option ‘-fprofile-instr-generate’; did you mean ‘-fprofile-generate’?
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/fiston/Desktop/AUCA/Data structure and algorithm/cmake-build-debug-coverage/CMakeFiles/3.29.6/CompilerIdC/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/fiston/Desktop/AUCA/Data structure and algorithm/cmake-build-debug-coverage/CMakeFiles/CMakeScratch/TryCompile-kZ2EtT"
+      binary: "/home/fiston/Desktop/AUCA/Data structure and algorithm/cmake-build-debug-coverage/CMakeFiles/CMakeScratch/TryCompile-kZ2EtT"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-fcoverage-mapping -fprofile-instr-generate"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/fiston/Desktop/AUCA/Data structure and algorithm/cmake-build-debug-coverage/CMakeFiles/CMakeScratch/TryCompile-kZ2EtT'
+        
+        Run Build Command(s): /snap/clion/296/bin/ninja/linux/x64/ninja -v cmTC_f237f
+        [1/2] /usr/bin/cc   -fcoverage-mapping -fprofile-instr-generate  -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_f237f.dir/CMakeCCompilerABI.c.o -c /snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c
+        FAILED: CMakeFiles/cmTC_f237f.dir/CMakeCCompilerABI.c.o 
+        /usr/bin/cc   -fcoverage-mapping -fprofile-instr-generate  -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_f237f.dir/CMakeCCompilerABI.c.o -c /snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        cc: error: unrecognized command-line option '-fcoverage-mapping'
+        cc: error: unrecognized command-line option '-fprofile-instr-generate'; did you mean '-fprofile-generate'?
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.2.0-23ubuntu4' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-uJ7kn6/gcc-13-13.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-uJ7kn6/gcc-13-13.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (Ubuntu 13.2.0-23ubuntu4) 
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Check for working C compiler: /usr/bin/cc"
+    directories:
+      source: "/home/fiston/Desktop/AUCA/Data structure and algorithm/cmake-build-debug-coverage/CMakeFiles/CMakeScratch/TryCompile-kqJZS1"
+      binary: "/home/fiston/Desktop/AUCA/Data structure and algorithm/cmake-build-debug-coverage/CMakeFiles/CMakeScratch/TryCompile-kqJZS1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-fcoverage-mapping -fprofile-instr-generate"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/fiston/Desktop/AUCA/Data structure and algorithm/cmake-build-debug-coverage/CMakeFiles/CMakeScratch/TryCompile-kqJZS1'
+        
+        Run Build Command(s): /snap/clion/296/bin/ninja/linux/x64/ninja -v cmTC_33511
+        [1/2] /usr/bin/cc   -fcoverage-mapping -fprofile-instr-generate  -fdiagnostics-color=always -o CMakeFiles/cmTC_33511.dir/testCCompiler.c.o -c '/home/fiston/Desktop/AUCA/Data structure and algorithm/cmake-build-debug-coverage/CMakeFiles/CMakeScratch/TryCompile-kqJZS1/testCCompiler.c'
+        FAILED: CMakeFiles/cmTC_33511.dir/testCCompiler.c.o 
+        /usr/bin/cc   -fcoverage-mapping -fprofile-instr-generate  -fdiagnostics-color=always -o CMakeFiles/cmTC_33511.dir/testCCompiler.c.o -c '/home/fiston/Desktop/AUCA/Data structure and algorithm/cmake-build-debug-coverage/CMakeFiles/CMakeScratch/TryCompile-kqJZS1/testCCompiler.c'
+        cc: error: unrecognized command-line option ‘-fcoverage-mapping’
+        cc: error: unrecognized command-line option ‘-fprofile-instr-generate’; did you mean ‘-fprofile-generate’?
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/cc 
+      Build flags: -fcoverage-mapping;-fprofile-instr-generate
+      Id flags:  
+      
+      The output was:
+      1
+      cc: error: unrecognized command-line option ‘-fcoverage-mapping’
+      cc: error: unrecognized command-line option ‘-fprofile-instr-generate’; did you mean ‘-fprofile-generate’?
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/cc 
+      Build flags: -fcoverage-mapping;-fprofile-instr-generate
+      Id flags: -c 
+      
+      The output was:
+      1
+      cc: error: unrecognized command-line option ‘-fcoverage-mapping’
+      cc: error: unrecognized command-line option ‘-fprofile-instr-generate’; did you mean ‘-fprofile-generate’?
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/cc 
+      Build flags: -fcoverage-mapping;-fprofile-instr-generate
+      Id flags: -Aa 
+      
+      The output was:
+      1
+      cc: error: unrecognized command-line option ‘-fcoverage-mapping’
+      cc: error: unrecognized command-line option ‘-fprofile-instr-generate’; did you mean ‘-fprofile-generate’?
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/cc 
+      Build flags: -fcoverage-mapping;-fprofile-instr-generate
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      1
+      cc: error: unrecognized command-line option ‘-fcoverage-mapping’
+      cc: error: unrecognized command-line option ‘-fprofile-instr-generate’; did you mean ‘-fprofile-generate’?
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/cc 
+      Build flags: -fcoverage-mapping;-fprofile-instr-generate
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      cc: warning: ‘-mcpu=’ is deprecated; use ‘-mtune=’ or ‘-march=’ instead
+      cc: error: unrecognized command-line option ‘-fcoverage-mapping’
+      cc: error: unrecognized command-line option ‘-fprofile-instr-generate’; did you mean ‘-fprofile-generate’?
+      cc: error: unrecognized command-line option ‘--target=arm-arm-none-eabi’
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/cc 
+      Build flags: -fcoverage-mapping;-fprofile-instr-generate
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      1
+      cc: error: unrecognized command-line option ‘-fcoverage-mapping’
+      cc: error: unrecognized command-line option ‘-fprofile-instr-generate’; did you mean ‘-fprofile-generate’?
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/fiston/Desktop/AUCA/Data structure and algorithm/cmake-build-debug-coverage/CMakeFiles/3.29.6/CompilerIdC/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/fiston/Desktop/AUCA/Data structure and algorithm/cmake-build-debug-coverage/CMakeFiles/CMakeScratch/TryCompile-fi43xx"
+      binary: "/home/fiston/Desktop/AUCA/Data structure and algorithm/cmake-build-debug-coverage/CMakeFiles/CMakeScratch/TryCompile-fi43xx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-fcoverage-mapping -fprofile-instr-generate"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/fiston/Desktop/AUCA/Data structure and algorithm/cmake-build-debug-coverage/CMakeFiles/CMakeScratch/TryCompile-fi43xx'
+        
+        Run Build Command(s): /snap/clion/296/bin/ninja/linux/x64/ninja -v cmTC_89af2
+        [1/2] /usr/bin/cc   -fcoverage-mapping -fprofile-instr-generate  -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_89af2.dir/CMakeCCompilerABI.c.o -c /snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c
+        FAILED: CMakeFiles/cmTC_89af2.dir/CMakeCCompilerABI.c.o 
+        /usr/bin/cc   -fcoverage-mapping -fprofile-instr-generate  -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_89af2.dir/CMakeCCompilerABI.c.o -c /snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        cc: error: unrecognized command-line option '-fcoverage-mapping'
+        cc: error: unrecognized command-line option '-fprofile-instr-generate'; did you mean '-fprofile-generate'?
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.2.0-23ubuntu4' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-uJ7kn6/gcc-13-13.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-uJ7kn6/gcc-13-13.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (Ubuntu 13.2.0-23ubuntu4) 
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Check for working C compiler: /usr/bin/cc"
+    directories:
+      source: "/home/fiston/Desktop/AUCA/Data structure and algorithm/cmake-build-debug-coverage/CMakeFiles/CMakeScratch/TryCompile-4UPcWV"
+      binary: "/home/fiston/Desktop/AUCA/Data structure and algorithm/cmake-build-debug-coverage/CMakeFiles/CMakeScratch/TryCompile-4UPcWV"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-fcoverage-mapping -fprofile-instr-generate"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/fiston/Desktop/AUCA/Data structure and algorithm/cmake-build-debug-coverage/CMakeFiles/CMakeScratch/TryCompile-4UPcWV'
+        
+        Run Build Command(s): /snap/clion/296/bin/ninja/linux/x64/ninja -v cmTC_857f0
+        [1/2] /usr/bin/cc   -fcoverage-mapping -fprofile-instr-generate  -fdiagnostics-color=always -o CMakeFiles/cmTC_857f0.dir/testCCompiler.c.o -c '/home/fiston/Desktop/AUCA/Data structure and algorithm/cmake-build-debug-coverage/CMakeFiles/CMakeScratch/TryCompile-4UPcWV/testCCompiler.c'
+        FAILED: CMakeFiles/cmTC_857f0.dir/testCCompiler.c.o 
+        /usr/bin/cc   -fcoverage-mapping -fprofile-instr-generate  -fdiagnostics-color=always -o CMakeFiles/cmTC_857f0.dir/testCCompiler.c.o -c '/home/fiston/Desktop/AUCA/Data structure and algorithm/cmake-build-debug-coverage/CMakeFiles/CMakeScratch/TryCompile-4UPcWV/testCCompiler.c'
+        cc: error: unrecognized command-line option ‘-fcoverage-mapping’
+        cc: error: unrecognized command-line option ‘-fprofile-instr-generate’; did you mean ‘-fprofile-generate’?
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...

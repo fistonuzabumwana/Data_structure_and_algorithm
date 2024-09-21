@@ -13,12 +13,12 @@ CMake Error at /snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMak
 
   It fails with the following output:
 
-    Change Dir: '/home/fiston/Desktop/AUCA/Data structure and algorithm/cmake-build-debug-coverage/CMakeFiles/CMakeScratch/TryCompile-uf4Tnj'
+    Change Dir: '/home/fiston/Desktop/AUCA/Data structure and algorithm/cmake-build-debug-coverage/CMakeFiles/CMakeScratch/TryCompile-4UPcWV'
     
-    Run Build Command(s): /snap/clion/296/bin/ninja/linux/x64/ninja -v cmTC_ce728
-    [1/2] /usr/bin/cc   -fcoverage-mapping -fprofile-instr-generate  -fdiagnostics-color=always -o CMakeFiles/cmTC_ce728.dir/testCCompiler.c.o -c '/home/fiston/Desktop/AUCA/Data structure and algorithm/cmake-build-debug-coverage/CMakeFiles/CMakeScratch/TryCompile-uf4Tnj/testCCompiler.c'
-    FAILED: CMakeFiles/cmTC_ce728.dir/testCCompiler.c.o 
-    /usr/bin/cc   -fcoverage-mapping -fprofile-instr-generate  -fdiagnostics-color=always -o CMakeFiles/cmTC_ce728.dir/testCCompiler.c.o -c '/home/fiston/Desktop/AUCA/Data structure and algorithm/cmake-build-debug-coverage/CMakeFiles/CMakeScratch/TryCompile-uf4Tnj/testCCompiler.c'
+    Run Build Command(s): /snap/clion/296/bin/ninja/linux/x64/ninja -v cmTC_857f0
+    [1/2] /usr/bin/cc   -fcoverage-mapping -fprofile-instr-generate  -fdiagnostics-color=always -o CMakeFiles/cmTC_857f0.dir/testCCompiler.c.o -c '/home/fiston/Desktop/AUCA/Data structure and algorithm/cmake-build-debug-coverage/CMakeFiles/CMakeScratch/TryCompile-4UPcWV/testCCompiler.c'
+    FAILED: CMakeFiles/cmTC_857f0.dir/testCCompiler.c.o 
+    /usr/bin/cc   -fcoverage-mapping -fprofile-instr-generate  -fdiagnostics-color=always -o CMakeFiles/cmTC_857f0.dir/testCCompiler.c.o -c '/home/fiston/Desktop/AUCA/Data structure and algorithm/cmake-build-debug-coverage/CMakeFiles/CMakeScratch/TryCompile-4UPcWV/testCCompiler.c'
     cc: error: unrecognized command-line option ‘-fcoverage-mapping’
     cc: error: unrecognized command-line option ‘-fprofile-instr-generate’; did you mean ‘-fprofile-generate’?
     ninja: build stopped: subcommand failed.
